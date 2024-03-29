@@ -12,8 +12,19 @@ keysInObject(animals); // => ["dog", "cat", "bison"]
 keysInObject(foods); // => ["apple", "lemon", "mango"]
 ***********************************************************************/
 
+// function keysInObject(obj) {
+//   const keys = [];
+//   for (let key in obj) {
+//     keys.push(key);
+//   }
+//   return keys;
+// }
+
+
 function keysInObject(obj) {
-  // Your code here 
+  
+  let objectKeys = Object.keys(obj);
+  return objectKeys;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
